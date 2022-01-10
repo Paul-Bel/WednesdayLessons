@@ -6,4 +6,4 @@ const reducers = combineReducers({
 });
 export type IGlobalState = ReturnType<typeof reducers>;
 
-export const store: IGlobalState = createStore(reducers);
+export const store = createStore(reducers);
